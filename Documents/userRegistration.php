@@ -1,6 +1,7 @@
+
 <!doctype html>
 <html lang="en">
-    
+
 <head>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -70,21 +71,21 @@
                                 <form action="/action_page.php">
                                   <h3>Classes Available</h3>
                                  <input type="checkbox" id="Algebra 1" name="Algebra 1" value="Algebra 1">
-                                    <label for="Algebra 1"> Algebra 1</label><br>
+                                    <label for="Algebra 1"> Algebra 1 (onlevel or Pre-AP)</label><br>
                                       <input type="checkbox" id="Geometry" name="Geometry" value="Geometry">
-                                 <label for="Geometry"> Geometry</label><br>
+                                 <label for="Geometry"> Geometry(onlevel or Pre-AP)</label><br>
                                  <input type="checkbox" id="Algebra 2" name="Algebra 2" value="Algebra 2">
-                                 <label for="vehicle3"> Algebra 2</label><br>
+                                 <label for="vehicle3"> Algebra 2(onlevel or Pre-AP)</label><br>
                                  <input type="checkbox" id="Pre-Calculus" name="Pre-Calculus" value="Pre-Calculus">
-                                    <label for="Pre-Calculus"> Pre-Calculus</label><br>
+                                    <label for="Pre-Calculus"> Pre-Calculus(onlevel or Pre-AP)</label><br>
                                       <input type="checkbox" id="AP Calculus AB" name="AP Calculus AB" value="AP Calculus AB">
                                  <label for="AP Calculus AB">AP Calculus AB</label><br>
                                  <input type="checkbox" id="AP Calculus BC" name="AP Calculus BC" value="AP Calculus BC">
                                  <label for="AP Calculus BC"> AP Calculus BC</label><br><br>
-                                 <input type="checkbox" id="Pre-AP Biology" name="Pre-AP Biology" value="Pre-AP Biology">
-                                    <label for=" Pre-AP Biology"> Pre-AP Biology</label><br>
-                                      <input type="checkbox" id="Pre-AP Chemistry" name="Pre-AP Chemistry" value="Pre-AP Chemistry">
-                                 <label for=" Pre-AP Chemistry"> Pre-AP Chemistry</label><br>
+                                 <input type="checkbox" id=" Biology" name=" Biology" value=" Biology">
+                                    <label for=" Biology"> Biology (onlevel or Pre-AP)</label><br>
+                                      <input type="checkbox" id="Chemistry" name="Chemistry" value="Chemistry">
+                                 <label for=" Chemistry"> Chemistry(onlevel or Pre-AP)</label><br>
                                  <input type="checkbox" id="AP Biology" name="AP Biology" value="AP Biology">
                                  <label for="AP Biology">AP Biology</label><br>
                                  <input type="checkbox" id="AP Chemistry" name="AP Chemistry" value="AP Chemistry">
@@ -99,16 +100,16 @@
                                  <label for="AP Enviornmental Science">AP Environmental Science</label><br><br>
                                  <input type="checkbox" id="AP Human Geography" name="AP Human Geography2" value="AP Human Geography">
                                  <label for="AP Human Geography">AP Human Geography</label><br>
-                                 <input type="checkbox" id="AP World History" name="AP World History" value="AP World History">
-                                 <label for="AP World History">AP World History</label><br>
-                                 <input type="checkbox" id="AP US History" name="AP US History" value="AP US History">
-                                 <label for="AP US History">AP US History</label><br>
-                                 <input type="checkbox" id="AP Government/Economics" name="AP Government/Economics" value="AP Government/Economics">
-                                 <label for="AP Government/Economics">AP Government/Economics</label><br><br>
-                                 <input type="checkbox" id="Pre-AP English 1" name="Pre-AP English 1" value="AP Physics 2">
-                                 <label for="Pre-AP English 1">Pre-AP English 1</label><br>
-                                 <input type="checkbox" id="Pre-AP English 2" name="Pre-AP English 2" value="Pre-AP English 2">
-                                 <label for="Pre-AP English 2">Pre-AP English 2</label><br>
+                                 <input type="checkbox" id="World History" name="World History" value="World History">
+                                 <label for="World History">AP World History(onlevel or Pre-AP)</label><br>
+                                 <input type="checkbox" id="US History" name="US History" value="US History">
+                                 <label for="US History">US History(onlevel or Pre-AP)</label><br>
+                                 <input type="checkbox" id="Government/Economics" name="Government/Economics" value="Government/Economics">
+                                 <label for="Government/Economics"> Government/Economics (onlevel or AP)</label><br><br>
+                                 <input type="checkbox" id="English 1" name="English 1" value="English 1">
+                                 <label for="English 1">English 1(onlevel or Pre-AP)</label><br>
+                                 <input type="checkbox" id="English 2" name="English 2" value="English 2">
+                                 <label for="English 2">English 2(onlevel or Pre-AP)</label><br>
                                  <input type="checkbox" id="AP Language and Composition" name="AP Language and Composition" value="AP Language and Composition">
                                  <label for="AP Language and Composition">AP Language and Composition</label><br>
                                  <input type="checkbox" id="AP Literature" name="AP Literature" value="AP Literature">
@@ -136,3 +137,15 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
