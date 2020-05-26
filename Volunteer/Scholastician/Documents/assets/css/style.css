@@ -472,7 +472,7 @@ p {
       padding-top: 0;
       padding-bottom: 5px; }
       .navbar-Brand{
-        
+
       }
     .navigation .navbar .navbar-toggler {
       padding: 2px 6px; }
@@ -1321,6 +1321,10 @@ p.form-message.success, p.form-message.error {
     height: 135px;
     padding-top: 10px;
     resize: none; }
+  .inputName
+  {
+
+  }
 
 .contact-map .gmap_canvas iframe {
   width: 100%;
