@@ -78,11 +78,11 @@
                         <form id="contact-form" action="assets/contact.php">
                             <div class="single-form">
                               <h5 class="about-title">User Name</h5>
-                                <input type="text" name="username" placeholder="User Name">
+                                <input type="text" name="username" placeholder="User Name" required>
                             </div> <!-- single form -->
                             <div class="single-form">
                               <h5 class="about-title">Password</h5>
-                                <input type="password" name="password" placeholder="Password">
+                                <input type="password" name="password" placeholder="Password" required>
                             </div>
                             <p class="form-message">Please ensure all content is filled and accurate before submitting</p>
                             <div class="single-form">

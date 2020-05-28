@@ -3,6 +3,24 @@
 
 <head>
 
+    <script type="text/javascript">
+    function checkPasswordSame(form) {
+              password1 = form.password.value;
+              password2 = form.cpassword.value;
+
+              // If password not entered
+
+              // If Not same return False.
+              if (password1 != password2) {
+                  alert ("\nPassword did not match: Please try again...")
+                  return false;
+              }
+              return true;
+
+
+          }
+
+    </script>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -72,27 +90,37 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form pt-30">
-                        <form id="contact-form" action="assets/contact.php">
-                            <div class="single-form">
-                              <h5 class="about-title">Name</h5>
-                                <input type="text" name="name" placeholder="Name">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                              <h5 class="about-title">Email Address</h5>
-                                <input type="email" name="email" placeholder="Email">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                              <h5 class="about-title">Mobile Phone Number</h5>
-                                <input type="number" name="phone_number" placeholder="Phone Number">
-                            </div>
-                            <div class="single-form">
-                              <h5 class="about-title">Date of Birth</h5>
-                                <input type="date" name="DOB" placeholder="DOB">
-                            </div>
-                            <div class="single-form">
-                              <h5 class="about-title">Grade Level</h5>
-                                <input type="number" name="grade" placeholder="Grade Level">
-                            </div>
+
+                        <form id="contact-form" action="insertStudent.php" onsubmit="return checkPasswordSame(this)">
+                          <div class="single-form">
+                            <h5 class="about-title">Username</h5>
+                              <input type="text" name="username" placeholder="username" required>
+                          </div>
+                          <div class="single-form">
+                            <h5 class="about-title">Password</h5>
+                              <input type="password" id = "password" name="password" placeholder="" required>
+                          </div>
+                          <div class="single-form">
+                            <h5 class="about-title">Confirm Password</h5>
+                              <input type="password" id = "cpassword" name="cpassword" placeholder="" required>
+                          </div>
+                          <div class="single-form">
+                            <h5 class="about-title">Name</h5>
+                              <input type="text" name="name" placeholder="Name" required>
+                          </div> <!-- single form -->
+                          <div class="single-form">
+                            <h5 class="about-title">Email Address</h5>
+                              <input type="email" name="email" placeholder="Email" required>
+                          </div> <!-- single form -->
+                          <div class="single-form">
+                            <h5 class="about-title">Mobile Phone Number</h5>
+                              <input type="number" name="phone_number" placeholder="Phone Number" min = "0" max = "9999999999" required>
+                          </div>
+
+                          <div class="single-form">
+                            <h5 class="about-title">Grade Level</h5>
+                              <input type="number" name="grade" placeholder="Grade Level" min = "0" max = "12" required>
+                          </div>
                             <br>
 
                                 <button class="main-btn" type="submit">Register</button>
@@ -159,6 +187,7 @@
     <!--====== Scrolling js ======-->
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
+    <script src"assets/js/passwordValidation.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
 </body>
