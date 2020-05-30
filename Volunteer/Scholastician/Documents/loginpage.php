@@ -75,7 +75,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form pt-30">
-                        <form id="contact-form" action="assets/contact.php">
+                        <form id="contact-form" action="login.php">
                             <div class="single-form">
                               <h5 class="about-title">User Name</h5>
                                 <input type="text" name="username" placeholder="User Name" required>
