@@ -19,10 +19,20 @@ $ACT = mysqli_real_escape_string($link, $_REQUEST['ACT']);
 $user = mysqli_real_escape_string($link, $_REQUEST['username']);
 $pass = mysqli_real_escape_string($link, $_REQUEST['password']);
 // Attempt insert query execution
-$sql = "INSERT INTO userInfo (Name, Email, PN, SAT, Grade, ACT, Username, Password) VALUES ('$name', '$email','$phone', '$SAT', '$grade', '$ACT', '$user', '$pass')";
+$sql = "INSERT INTO userInfo (Name, Email, PN, SAT, Grade, ACT, Username, Password, student) VALUES ('$name', '$email','$phone', '$SAT', '$grade', '$ACT', '$user', '$pass','0')";
 if(mysqli_query($link, $sql)){
     echo "<script type='text/javascript'>alert('Succesfully Registered');</script>";
-    include("tutorHomePage.html");
+    session_start();
+    $user = mysqli_real_escape_string($link, $_REQUEST['username']);
+    $getInfo = "SELECT student FROM userInfo WHERE Username = '$user'";
+    $query = mysqli_query($link, $getInfo);
+
+    $row = mysqli_fetch_array($query);
+    $student = $row['student'];
+    $_SESSION['student'] = $student;
+    echo $_SESSION['student'];
+    $_SESSION['username'] = $user;
+    header("Location: index.php");
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }

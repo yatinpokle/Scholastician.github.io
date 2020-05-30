@@ -66,7 +66,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php">
                                 <img src="assets/images/logo.png" alt="Logo">
                             </a> <!-- Logo -->
                             <!-- navbar collapse -->
@@ -144,7 +144,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/images/logo.png" alt="Logo" style="display: inline; height:30%; width: inherit;">
                             </a>
                             <p class="mt-">Free Education for a Better Tommorow</p>

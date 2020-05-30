@@ -1,6 +1,6 @@
 
 <?php
-
+session_start();
 $link = mysqli_connect("localhost", "nihal", "1234", "account");
 
 // Check connection
@@ -16,7 +16,7 @@ else
 $user = mysqli_real_escape_string($link, $_REQUEST['username']);
 $pass = mysqli_real_escape_string($link, $_REQUEST['password']);
 
-$sql = "SELECT  username  FROM studentinfo WHERE username = ?";
+$sql = "SELECT  username  FROM userinfo WHERE username = ?";
 
  if($stmt = mysqli_prepare($link, $sql)){
    // Bind variables to the prepared statement as parameters
@@ -38,7 +38,7 @@ $sql = "SELECT  username  FROM studentinfo WHERE username = ?";
                  if(mysqli_stmt_num_rows($stmt) >= 1)
                  {
                    echo "Username found";
-                   $sql1 =   "SELECT Username, Password FROM studentinfo WHERE Username=? and Password=?";
+                   $sql1 =   "SELECT Username, Password FROM userinfo WHERE Username=? and Password=?";
 
 
                    if($stmt1 = mysqli_prepare($link, $sql1))
@@ -60,6 +60,17 @@ $sql = "SELECT  username  FROM studentinfo WHERE username = ?";
 
                                   echo "password found";
                                     echo "<script type='text/javascript'>alert('Succesfully logged in');</script>";
+
+
+                                    $getInfo = "SELECT student FROM userInfo WHERE Username = '$user'";
+                                    $query = mysqli_query($link, $getInfo);
+
+                                    $row = mysqli_fetch_array($query);
+                                    $student = $row['student'];
+                                    $_SESSION['student'] = $student;
+                                    echo $_SESSION['student'];
+                                    $_SESSION['username'] = $user;
+                                    header("Location: index.php");
                                 }
                         else
                         {
