@@ -78,8 +78,8 @@
                     <div class="contact-form pt-30">
                         <form id="contact-form" action="login.php">
                             <div class="single-form">
-                              <h5 class="about-title">User Name</h5>
-                                <input type="text" name="username" placeholder="User Name" required>
+                              <h5 class="about-title">Username</h5>
+                                <input type="text" name="username" placeholder="Username" required>
                             </div> <!-- single form -->
                             <div class="single-form">
                               <h5 class="about-title">Password</h5>

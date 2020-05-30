@@ -94,7 +94,7 @@
                         <form id="contact-form" action="insertStudent.php" onsubmit="return checkPasswordSame(this)">
                           <div class="single-form">
                             <h5 class="about-title">Username</h5>
-                              <input type="text" name="username" placeholder="username" required>
+                              <input type="text" name="username" placeholder="Username" required>
                           </div>
                           <div class="single-form">
                             <h5 class="about-title">Password</h5>

@@ -389,7 +389,7 @@
     <!--====== STUDENT PART ENDS ======-->
     <!--====== TUTOR PART START ======-->
 
-    <section id="tutor" class="services-area gray-bg pt-150 pb-130">
+    <section id="tutor" class="services-area gray-bg pt-90 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -533,8 +533,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
-                            <a href="index.php">
-                                <img src="assets/images/logo.png" alt="Logo" style="display: inline; height:30%; width: inherit;">
+                            <a href="index.php" style = "color: white; font-size: 30px; ">
+                                SCHOLASTICIAN
                             </a>
                             <p class="mt-">Free Education for a Better Tommorow</p>
                             <ul>
@@ -553,7 +553,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 202. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>Copyright © 2020. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->
