@@ -93,7 +93,7 @@
                                     <li class="nav-item"><a class="page-scroll" href="#student">Students</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#tutor">Tutors</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="loginPage.php">Login</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="loginpage.php">Login</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->

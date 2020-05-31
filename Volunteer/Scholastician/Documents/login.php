@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-$link = mysqli_connect("localhost", "nihal", "1234", "account");
+$link = mysqli_connect("localhost", "nihal", "12345", "account");
 
 // Check connection
 if($link === false){
@@ -62,7 +62,7 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
                                     echo "<script type='text/javascript'>alert('Succesfully logged in');</script>";
 
 
-                                    $getInfo = "SELECT student FROM userInfo WHERE Username = '$user'";
+                                    $getInfo = "SELECT student FROM userinfo WHERE Username = '$user'";
                                     $query = mysqli_query($link, $getInfo);
 
                                     $row = mysqli_fetch_array($query);
