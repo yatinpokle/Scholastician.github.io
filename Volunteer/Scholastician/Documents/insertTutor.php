@@ -18,6 +18,47 @@ $SAT = mysqli_real_escape_string($link, $_REQUEST['SAT']);
 $ACT = mysqli_real_escape_string($link, $_REQUEST['ACT']);
 $user = mysqli_real_escape_string($link, $_REQUEST['username']);
 $pass = mysqli_real_escape_string($link, $_REQUEST['password']);
+
+
+//check if username already exists
+$sql = "SELECT  username  FROM userinfo WHERE username = ?";
+
+ if($stmt = mysqli_prepare($link, $sql))
+ {
+   //echo "print 1";
+   // Bind variables to the prepared statement as parameters
+              mysqli_stmt_bind_param($stmt, "s", $param_username);
+
+              // Set parameters
+              $param_username = $user;
+          //    echo   $param_username;
+
+
+  // Attempt to execute the prepared statement
+          if(mysqli_stmt_execute($stmt))
+
+          {
+          //  echo "print 2";
+
+              // Store result
+
+              mysqli_stmt_store_result($stmt);
+
+              // Check if username exists, if yes then verify password
+                 if(mysqli_stmt_num_rows($stmt) >= 1)
+
+                 {
+
+                      header("Location: tutorRegistration.php");
+                      echo "<script type='text/javascript'>alert('username taken');</script>";
+                      exit();
+                   }
+          }
+  }
+
+
+
+
 // Attempt insert query execution
 $sql = "INSERT INTO userinfo (Name, Email, PN, SAT, Grade, ACT, Username, Password, student) VALUES ('$name', '$email','$phone', '$SAT', '$grade', '$ACT', '$user', '$pass','0')";
 if(mysqli_query($link, $sql)){
