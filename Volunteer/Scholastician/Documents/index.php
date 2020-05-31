@@ -321,7 +321,7 @@
                     <div class="col-xl-8 col-lg-9">
                         <div class="call-action-content text-center">
                             <h2 class="action-title">Read More</h2>
-                            <p>Want to learn more about how Scholastician works? Click below to learn more.</p>
+                            <p>Want to learn more about how Scholastician works? Click below.</p>
                             <ul>
                                 <li><a class="main-btn custom" href="readMoreStudents.html">Students</a></li>
                                 <li><a class="main-btn custom-2" href="readMoreTutors.html">Tutors</a></li>
@@ -375,7 +375,7 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title"><a href="readMoreStudents.html">Read More</a></h4>
-                            <p>Want to learn more about registering as a student?</p>
+                            <p>Want to learn more about registering as a student? Click here. </p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -429,7 +429,7 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title"><a href="readMoreTutors.html">Read More</a></h4>
-                            <p>Want to learn more about registering as a student?</p>
+                            <p>Want to learn more about registering as a tutor? Click here.</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -493,7 +493,7 @@
                         </div>
                         <div class="contact-content">
                             <h6 class="contact-title">Email</h6>
-                            <p>help.scholastician@gmail.com</p>
+                            <p>support@scholastician.org</p>
                         </div>
                     </div> <!-- contact box -->
                 </div>
@@ -506,7 +506,7 @@
                                 <input type="text" name="name" placeholder="Name">
                             </div> <!-- single form -->
                             <div class="single-form">
-                                <input type="email" name="email" placeholder="Email">
+                                <input type="email" name="email" placeholder="Your Email">
                             </div> <!-- single form -->
                             <div class="single-form">
                                 <textarea name="message" placeholder="Message"></textarea>
@@ -553,7 +553,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2020. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>©Scholastician 2020. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->
