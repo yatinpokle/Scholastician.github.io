@@ -203,7 +203,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                              <i class="lni lni-book"></i>
                          </div>
                          <div class="service-content">
-                             <h4 class="service-title"><a href="readMoreStudents.html">Change Classes</a></h4>
+                             <h4 class="service-title"><a href="matching.php">Change Classes</a></h4>
                              <p>Change your subjects for different tutors.</p>
                          </div>
                      </div> <!-- single service -->
@@ -220,7 +220,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                              <i class="lni lni-search"></i>
                          </div>
                          <div class="service-content">
-                             <h4 class="service-title"><a href="readMoreStudents.html">Find a Tutor</a></h4>
+                             <h4 class="service-title"><a href="matching.php">Find a Tutor</a></h4>
                              <p id = "helloThree">You will recieve an email upon being matched.</p>
                          </div>
                      </div> <!-- single service -->
