@@ -144,7 +144,24 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
              <div class="row justify-content-center" id = "helloStudent">
                  <div class="col-lg-8">
                      <div class="section-title text-center pb-30" id = "positionOne">
-                         <h2 class="title" >Hello [Student's Name Here]</h2>
+                         <?php
+                         $link = mysqli_connect("localhost", "nihal", "12345", "account");
+
+                         // Check connection
+                         if($link === false){
+                             die("ERROR: Could not connect. " . mysqli_connect_error());
+                         }
+                         else
+                         {
+                         }
+                         $uname = $_SESSION['username'];
+                         $getInfo = "SELECT Name FROM userinfo WHERE Username = '$uname'";
+                         $query = mysqli_query($link, $getInfo);
+
+                         $row = mysqli_fetch_array($query);
+                           $name = $row['Name'];
+                         echo "<h2 class=\"title\" > Hello $name </h2>";
+                          ?>
 
 
                          <!-- NIHAL&PAVAN :::::: can you do php stuff to show the person's status if they are matched or not? you can delete it if you dont want to do that work -->
