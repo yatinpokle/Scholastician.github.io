@@ -149,7 +149,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '0')
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>Copyright © 2022.</p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

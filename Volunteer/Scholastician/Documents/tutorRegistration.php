@@ -91,6 +91,10 @@
                     <div class="contact-form pt-30">
                         <form id="contact-form" action="insertTutor.php" onsubmit="return checkPasswordSame(this)">
                           <div class="single-form">
+                            <?php if (isset($name_error)) {
+
+                              echo "<script type='text/javascript'>alert('username taken');</script>";
+                            } ?>
                             <h5 class="about-title">Username</h5>
                               <input type="text" name="username" placeholder="Username" required>
                           </div>
@@ -164,7 +168,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>Copyright © 2022.</p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

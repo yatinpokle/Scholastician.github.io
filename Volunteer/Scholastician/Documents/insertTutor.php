@@ -49,9 +49,7 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
 
                  {
 
-                      header("Location: tutorRegistration.php");
-                      echo "<script type='text/javascript'>alert('username taken');</script>";
-                      exit();
+                      echo "<script>alert('Username Already Taken. Please try another Username and sumbit again'); document.location='tutorRegistration.php'</script>";
                    }
           }
   }

@@ -191,16 +191,13 @@
                             <p>We are currently offering assistance in numerous on-level, PAP, & AP courses. We will match students to certified tutors for the selected courses. </p>
                             <ul class="clearfix">
                                 <li>
-                                    <div class="single-info d-flex align-items-center">
-                                        <div class="info-icon">
-
-                                        </div>
+                                    <div class=" d-flex align-items-center">
                                         <div class="info-text">
                                             <p>•Algebra 1 & 2</p>
                                             <p>•Geometry</p>
                                             <p>•Pre-Calculus</p>
                                             <p>•AP Calculus AB & BC</p>
-                                            <br><br>
+                                            <br>
                                             <p>•Biology & AP Biology</p>
                                             <p>•Chemistry & AP Chemistry</p>
                                             <p>•Physics 1, 2, C</p>
@@ -209,14 +206,15 @@
                                     </div> <!-- single info -->
                                 </li>
 
+
                                 <li>
-                                    <div class="single-info d-flex align-items-center">
+                                    <div class=" d-flex align-items-center">
                                         <div class="info-icon">
                                           <p>•AP Human Geography</p>
                                           <p>•AP World History</p>
                                           <p>•AP US History</p>
                                           <p>•AP Government & Economics </p>
-                                          <br><br>
+                                          <br>
                                           <p>•English 1</p>
                                           <p>•English 2</p>
                                           <p>•AP Language and Composition</p>
@@ -227,16 +225,7 @@
                                         </div>
                                     </div> <!-- single info -->
                                 </li>
-                                <li>
-                                    <div class="single-info d-flex align-items-center">
-                                        <div class="info-icon">
 
-                                        </div>
-                                        <div class="info-text">
-
-                                        </div>
-                                    </div> <!-- single info -->
-                                </li>
                             </ul>
                         </div> <!-- about content -->
                     </div>
@@ -553,7 +542,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>©Scholastician 2020. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>©Scholastician 2020.</p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->
