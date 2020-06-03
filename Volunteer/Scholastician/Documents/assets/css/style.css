@@ -1295,7 +1295,7 @@ p.form-message.success, p.form-message.error {
 
 .single-form {
   margin-top: 30px; }
-  .single-form input, .single-form textarea {
+  .single-form input, .single-form textarea , .singleform select{
     width: 100%;
     height: 55px;
     border-radius: 5px;
@@ -1303,24 +1303,28 @@ p.form-message.success, p.form-message.error {
     padding: 0 25px;
     font-size: 16px;
     color: #8a8fa3; }
-    .single-form input.placeholder, .single-form textarea.placeholder {
+    .single-form input.placeholder, .single-form textarea.placeholder, .single-form select.placeholder {
       opacity: 1;
       color: #8a8fa3; }
-    .single-form input:-moz-placeholder, .single-form textarea:-moz-placeholder {
+    .single-form input:-moz-placeholder, .single-form textarea:-moz-placeholder, .single-form select.placeholder {
       opacity: 1;
       color: #8a8fa3; }
-    .single-form input::-moz-placeholder, .single-form textarea::-moz-placeholder {
+    .single-form input::-moz-placeholder, .single-form textarea::-moz-placeholder, .single-form select::-moz-placeholder {
       opacity: 1;
       color: #8a8fa3; }
-    .single-form input::-webkit-input-placeholder, .single-form textarea::-webkit-input-placeholder {
+    .single-form input::-webkit-input-placeholder, .single-form textarea::-webkit-input-placeholder, .single-form select::-webkit-input-placeholder {
       opacity: 1;
       color: #8a8fa3; }
-    .single-form input:focus, .single-form textarea:focus {
+    .single-form input:focus, .single-form textarea:focus, .single-form select:focus {
       border-color: #754ef9; }
   .single-form textarea {
     height: 135px;
     padding-top: 10px;
     resize: none; }
+    select
+    {
+
+    }
   .inputName
   {
 

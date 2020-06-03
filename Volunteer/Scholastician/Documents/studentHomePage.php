@@ -294,41 +294,6 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
              </div>
 
          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          </div>
 
 

@@ -62,14 +62,27 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
                                     echo "<script type='text/javascript'>alert('Succesfully logged in');</script>";
 
 
+                                    session_start();
+                                    $user = mysqli_real_escape_string($link, $_REQUEST['username']);
                                     $getInfo = "SELECT student FROM userinfo WHERE Username = '$user'";
                                     $query = mysqli_query($link, $getInfo);
+                                    if(mysqli_num_rows($query) == 0)
+                                    {
+                                      echo "yes";
+                                    }
 
                                     $row = mysqli_fetch_array($query);
                                     $student = $row['student'];
                                     $_SESSION['student'] = $student;
-                                    echo $_SESSION['student'];
+                                    $user = mysqli_real_escape_string($link, $_REQUEST['username']);
+                                    $getInfo = "SELECT id FROM userinfo WHERE Username = '$user'";
+                                    $query = mysqli_query($link, $getInfo);
+
+                                    $row = mysqli_fetch_array($query);
+                                    $id = $row['id'];
+                                    $_SESSION['id'] = $id;
                                     $_SESSION['username'] = $user;
+                                    echo $_SESSION['username'];
                                     header("Location: index.php");
                                 }
                         else

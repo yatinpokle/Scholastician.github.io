@@ -75,6 +75,19 @@ if(mysqli_query($link, $sql)){
     echo $user;
     $_SESSION['student'] = $student;
     echo $_SESSION['student'];
+    $user = mysqli_real_escape_string($link, $_REQUEST['username']);
+    $getInfo = "SELECT id FROM userinfo WHERE Username = '$user'";
+    $query = mysqli_query($link, $getInfo);
+    if(mysqli_num_rows($query) == 0)
+    {
+      echo "yes";
+    }
+    echo "no";
+    echo "hello";
+    $row = mysqli_fetch_array($query);
+    $id = $row['id'];
+    echo $user;
+    $_SESSION['id'] = $id;
     $_SESSION['username'] = $user;
     echo $_SESSION['username'];
 
