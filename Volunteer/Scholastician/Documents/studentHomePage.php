@@ -195,32 +195,18 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                  </div>
 
                  </div> <!-- row -->
-             <div class="row justify-content-center">
-                 <h5 id = "hi" class="col-md-6 col-sm-8">Verify that you have all the right classes! You can view and change the subjects you signed up for by clicking on the icon to the right</h5>
-                 <div class="col-lg-4 col-md-6 col-sm-8">
-                     <div class="single-service text-center mt-30">
-                         <div class="service-icon">
-                             <i class="lni lni-book"></i>
-                         </div>
-                         <div class="service-content">
-                             <h4 class="service-title"><a href="matching.php">Change Classes</a></h4>
-                             <p>Change your subjects for different tutors.</p>
-                         </div>
-                     </div> <!-- single service -->
-                 </div>
 
-             </div> <!-- row -->
 
                  <div class  = "background">
                  <div class="row justify-content-center" >
-                 <h5 id = "hi" class="col-md-6 col-sm-8">Now for the most important step. Once you have all your classes confirmed and know what to expect, it is time to request a tutor. Press the icon on the right to begin.</h5>
+                 <h5 id = "hi" class="col-md-6 col-sm-8">Now for the most important step. If you are ready to start looking for a tutor, please click on the icon on the right. You will be prompted to enter some information to begin the matching process.</h5>
                  <div class="col-lg-4 col-md-6 col-sm-8">
                      <div class="single-service text-center mt-30">
                          <div class="service-icon">
                              <i class="lni lni-search"></i>
                          </div>
                          <div class="service-content">
-                             <h4 class="service-title"><a href="matching.php">Find a Tutor</a></h4>
+                             <h4 class="service-title"><a href="matching.php">Find a Tutor for a class</a></h4>
                              <p id = "helloThree">You will recieve an email upon being matched.</p>
                          </div>
                      </div> <!-- single service -->
