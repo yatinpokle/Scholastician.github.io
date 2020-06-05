@@ -78,7 +78,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.php">
-                                <img src="assets/images/logo.png" alt="Logo">
+                                <img src="assets/images/logo1.png" alt="Logo">
                             </a> <!-- Logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -180,7 +180,8 @@
                     <div class="col-lg-8">
                         <div class="section-title text-center">
                             <h2 class="title">About Us</h2>
-                            <p>We believe that during COVID-19, access to education is becoming increasingly difficult, especially for the underprivileged. We believe that everyone should have an equal access to education, no matter their financial background. That's why we are offering educational opportunities to students for free. </p>
+                            <p>We are truly passionate in fighting the global inequality in education, which has been especially underscored by the lack of opportunities as a result of financial and social issues during COVID-19. That’s why we developed Scholastician, which provides equal access to education for all people, no matter one’s financial background. It has become ever so important to give back to the community and given our knowledge in these courses and the resources we can obtain, we felt that developing a virtual tutoring service in times of uncertainty was the best way to support the community.
+</p>
                         </div> <!-- section title -->
                     </div>
                 </div> <!-- row -->
@@ -490,7 +491,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="contact-form pt-30">
-                        <form id="contact-form" action="assets/contact.php">
+                        <form id="contact-form" action="submitContactUsEmail.php">
                             <div class="single-form">
                                 <input type="text" name="name" placeholder="Name">
                             </div> <!-- single form -->
@@ -525,7 +526,7 @@
                             <a href="index.php" style = "color: white; font-size: 30px; ">
                                 SCHOLASTICIAN
                             </a>
-                            <p class="mt-">Free Education for a Better Tommorow</p>
+                            <p class="mt-">Empowering Students for a Better Tomorrow</p>
                             <ul>
                                 <li><a href="https://www.facebook.com/Scholastician-111874543877312"><i class="lni-facebook-filled"></i></a></li>
                                 <li><a href="https://www.instagram.com/v_scholastician/?hl=en"><i class="lni-instagram-filled"></i></a></li>
@@ -542,7 +543,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>©Scholastician 2020.</p>
+                            <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

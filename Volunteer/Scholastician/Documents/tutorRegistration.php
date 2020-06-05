@@ -67,7 +67,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.php">
-                                <img src="assets/images/logo.png" alt="Logo">
+                                <img src="assets/images/logo1.png" alt="Logo">
                             </a> <!-- Logo -->
                             <!-- navbar collapse -->
                         </nav> <!-- navbar -->
@@ -148,10 +148,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
-                            <a href="index.php">
-                                <img src="assets/images/logo.png" alt="Logo" style="display: inline; height:30%; width: inherit;">
-                            </a>
-                            <p class="mt-">Free Education for a Better Tommorow</p>
+                          <a href="index.php" style = "color: white; font-size: 30px; ">
+                              SCHOLASTICIAN
+                          </a>
+                            <p class="mt-">Empowering Students for a Better Tomorrow</p>
                             <ul>
                                 <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
                                 <li><a href="#"><i class="lni-twitter-original"></i></a></li>
@@ -168,7 +168,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © 2022.</p>
+                          <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

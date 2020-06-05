@@ -52,7 +52,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
              width: 50px;
          }
          #hi {
-             padding: 5em;
+             padding: 10%;
              margin-right: 10px;
              max-width: 100em;
 
@@ -83,7 +83,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
 
              margin-top: 2em;
          }
-         h5 { 
+         h5 {
          text-align: center;
          }
 
@@ -120,7 +120,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                      <div class="col-lg-12">
                          <nav class="navbar navbar-expand-lg">
                              <a class="navbar-brand" href="index.php">
-                                 <img src="assets/images/logo.png" alt="Logo">
+                                 <img src="assets/images/logo1.png" alt="Logo">
                              </a> <!-- Logo -->
                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                  <span class="toggler-icon"></span>
@@ -130,9 +130,8 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
 
                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                  <ul class="navbar-nav ml-auto">
-                                     <li class="nav-item active"><a class="page-scroll" href="#helloStudent">Status</a></li>
-                                     <li class="nav-item"><a class="page-scroll" href="#helloTwo">Find Tutor</a></li>
-                                     <li class="nav-item"><a class="page-scroll" href="#helloThree">Process</a></li>
+                                     <li class="nav-item"><a class="page-scroll" href="#ft">Find Tutor</a></li>
+                                     <li class="nav-item"><a class="page-scroll" href="#process">Process</a></li>
                                      <li class="nav-item"><a class="" href="logout.php">Logout</a></li>
                                  </ul>
                              </div> <!-- navbar collapse -->
@@ -172,24 +171,24 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                          <!-- NIHAL&PAVAN :::::: can you do php stuff to show the person's status if they are matched or not? you can delete it if you dont want to do that work -->
 
 
-                         <h3>Your Status | <span id = "unmatched">Unmatched</span><span id = "matched">Matched</span></h3>
+
                          <p ><br>Students should register and login here for our matching program. Once you are paired with a tutor, we will send one email to both of you, so that you can communicate with each other. Please contact us via email or through the contact page on our website if you have any issues during your <span id = "helloTwo">tutoring session.</span> </p>
 
 
                      </div> <!-- section title -->
                  </div>
              </div> <!-- row -->
-             
-             
+
+
              <div id = "split">
-                 <div class = "background">
+                 <div id = "ft" class = "background">
                      <div class="row justify-content-center">
                          <h5 id = "intro">Ready for a tutor?</h5>
 
 
                      </div> <!-- row -->
                      <div class="row justify-content-center">
-                        
+
                          <h5 id = "hi" class="col-md-6 col-sm-8">Before matching, if you have any questions over our program, feel free to contact us or look over the details through the icon to the right.</h5>
                          <div class="col-lg-4 col-md-6 col-sm-8">
                          <div class="single-service text-center mt-30">
@@ -204,8 +203,8 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                      </div>
 
                      </div> <!-- row -->
-                 <div class="row justify-content-center">
-                    
+                 <div id = "findtutor" class="row justify-content-center">
+
                      <h5 id = "hi" class="col-md-6 col-sm-8">Now for the most important step. If you are ready to start looking for a tutor, please click on the icon on the right. You will be prompted to enter some information to begin the matching process.</h5>
                      <div class="col-lg-4 col-md-6 col-sm-8">
                          <div class="single-service text-center mt-30">
@@ -221,30 +220,30 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
 
 
                  </div> <!-- row -->
-                     
-                     
+
+
              </div>
 
          </div>
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -253,7 +252,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
              <!-- now what? -->
 
             <div id = "split">
-                 <div class = "background">
+                 <div id="process"class = "background">
                      <div class="row justify-content-center">
                          <h5 id = "intro">What's next?</h5>
 
@@ -307,7 +306,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
 
                  </div> <!-- row -->
 
-                     
+
              </div>
 
          </div>
@@ -340,10 +339,10 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                  <div class="row justify-content-center">
                      <div class="col-lg-8">
                          <div class="footer-content text-center">
-                             <a href="index.php">
-                                 <img src="assets/images/logo.png" alt="Logo" style="display: inline; height:30%; width: inherit;">
-                             </a>
-                             <p class="mt-">Free Education for a Better Tommorow</p>
+                           <a href="index.php" style = "color: white; font-size: 30px; ">
+                               SCHOLASTICIAN
+                           </a>
+                             <p class="mt-">Empowering Students for a Better Tomorrow</p>
                              <ul>
                                  <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
                                  <li><a href="#"><i class="lni-twitter-original"></i></a></li>
@@ -360,7 +359,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                  <div class="row">
                      <div class="col-lg-12">
                          <div class="copyright-text text-center pt-20">
-                             <p>Copyright © 2022.</p>
+                             <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
                          </div> <!-- copyright text -->
                      </div>
                  </div> <!-- row -->
