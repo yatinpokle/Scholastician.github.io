@@ -62,6 +62,8 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
 
          background-color: gainsboro;
              padding-bottom: 2em;
+             padding-right: 2em;
+             padding-left: 2em;
          }
          #intro {
              font-size: 2em;
@@ -80,6 +82,9 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
          .title {
 
              margin-top: 2em;
+         }
+         h5 { 
+         text-align: center;
          }
 
      </style>
@@ -174,46 +179,72 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                      </div> <!-- section title -->
                  </div>
              </div> <!-- row -->
-             <div class = "background">
-                 <div class="row justify-content-center">
-                     <h5 id = "intro">Ready for a tutor?</h5>
+             
+             
+             <div id = "split">
+                 <div class = "background">
+                     <div class="row justify-content-center">
+                         <h5 id = "intro">Ready for a tutor?</h5>
 
 
-                 </div> <!-- row -->
-                 <div class="row justify-content-center">
-                     <h5 id = "hi" class="col-md-6 col-sm-8">Before matching, if you have any questions over our program, feel free to contact us or look over the details through the icon to the right.</h5>
-                 <div class="col-lg-4 col-md-6 col-sm-8">
-                     <div class="single-service text-center mt-30">
-                         <div class="service-icon">
-                             <i class="lni-website"></i>
-                         </div>
-                         <div class="service-content">
-                             <h4 class="service-title"><a href="readMoreStudents.html">Read More</a></h4>
-                             <p>Want to learn more about registering as a student?</p>
-                         </div>
-                     </div> <!-- single service -->
-                 </div>
-
-                 </div> <!-- row -->
-
-
-                 <div class  = "background">
-                 <div class="row justify-content-center" >
-                 <h5 id = "hi" class="col-md-6 col-sm-8">Now for the most important step. If you are ready to start looking for a tutor, please click on the icon on the right. You will be prompted to enter some information to begin the matching process.</h5>
-                 <div class="col-lg-4 col-md-6 col-sm-8">
-                     <div class="single-service text-center mt-30">
-                         <div class="service-icon">
-                             <i class="lni lni-search"></i>
-                         </div>
-                         <div class="service-content">
-                             <h4 class="service-title"><a href="matching.php">Find a Tutor for a class</a></h4>
-                             <p id = "helloThree">You will recieve an email upon being matched.</p>
-                         </div>
-                     </div> <!-- single service -->
-                 </div>
+                     </div> <!-- row -->
+                     <div class="row justify-content-center">
+                        
+                         <h5 id = "hi" class="col-md-6 col-sm-8">Before matching, if you have any questions over our program, feel free to contact us or look over the details through the icon to the right.</h5>
+                         <div class="col-lg-4 col-md-6 col-sm-8">
+                         <div class="single-service text-center mt-30">
+                             <div class="service-icon">
+                                 <i class="lni-website"></i>
+                             </div>
+                             <div class="service-content">
+                                 <h4 class="service-title"><a href="readMoreStudents.html">Read More</a></h4>
+                                 <p>Want to learn more about registering as a student?</p>
+                             </div>
+                         </div> <!-- single service -->
                      </div>
-                 </div>
+
+                     </div> <!-- row -->
+                 <div class="row justify-content-center">
+                    
+                     <h5 id = "hi" class="col-md-6 col-sm-8">Now for the most important step. If you are ready to start looking for a tutor, please click on the icon on the right. You will be prompted to enter some information to begin the matching process.</h5>
+                     <div class="col-lg-4 col-md-6 col-sm-8">
+                         <div class="single-service text-center mt-30">
+                             <div class="service-icon">
+                                 <i class="lni lni-search"></i>
+                             </div>
+                             <div class="service-content">
+                                 <h4 class="service-title"><a href="matching.php">Find a Tutor for a Class</a></h4>
+                                 <p>You will recieve an email when matched.</p>
+                             </div>
+                         </div> <!-- single service -->
+                     </div>
+
+
+                 </div> <!-- row -->
+                     
+                     
+             </div>
+
          </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+            
 
 
 
@@ -240,7 +271,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                              </div>
                          </div> <!-- single service -->
                      </div>
-                         <h5 id = "hi" class="col-md-6 col-sm-8">Once you start your search for a tutor, that's it! Our computers will be working on pairing you with a qualified tutor.</h5>
+                         <h5 id = "hi" class="col-md-6 col-sm-8">Our computers will be working on pairing you with a qualified tutor.</h5>
 
                      </div> <!-- row -->
                  <div class="row justify-content-center">
@@ -255,28 +286,28 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                              </div>
                          </div> <!-- single service -->
                      </div>
-                     <h5 id = "hi" class="col-md-6 col-sm-8">Once our computer finds a match, we will send you an email with you and your tutor's details. Verify if you got an email by visiting this page and viewing your status. </h5>
+                     <h5 id = "hi" class="col-md-6 col-sm-8">Once our computer finds a match, we will send you an email with you and your tutor's details.</h5>
+
+
+                 </div> <!-- row -->
+                     <div class="row justify-content-center">
+                     <div class="col-lg-4 col-md-6 col-sm-8">
+                         <div class="single-service text-center mt-30">
+                             <div class="service-icon">
+                                 <i class="lni lni-envelope"></i>
+                             </div>
+                             <div class="service-content">
+                                 <h4 class="service-title">Contact Us</h4>
+                                 <p>Our email: support@scholastician.org</p>
+                             </div>
+                         </div> <!-- single service -->
+                     </div>
+                     <h5 id = "hi" class="col-md-6 col-sm-8">Once you recieve the email, it is up to you and your tutor on communication.</h5>
 
 
                  </div> <!-- row -->
 
-                     <div class  = "background">
-                     <div class="row justify-content-center" >
-                         <div class="col-lg-4 col-md-6 col-sm-7">
-                     <div class="contact-box text-center mt-30">
-                         <div class="contact-icon">
-                             <i class="lni lni-bubble"></i>
-                         </div>
-                         <div class="contact-content">
-                             <h6 class="contact-title">Contact Us</h6>
-                             <p>Our email: support@scholastician.org</p>
-                         </div>
-                     </div> <!-- contact box -->
-                 </div>
-                     <h5 id = "hi" class="col-md-6 col-sm-8">Once you recieve the email, it is up to you and your tutor on how you are going to communicate. If there are some delays, please contact us. </h5>
-
-                         </div>
-                     </div>
+                     
              </div>
 
          </div>
