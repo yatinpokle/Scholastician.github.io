@@ -455,12 +455,12 @@
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="contact-box text-center mt-30">
                         <div class="contact-icon">
-                            <i class="lni-map-marker"></i>
+                            <i class="lni-phone"></i>
                         </div>
                         <div class="contact-content">
-                            <h6 class="contact-title">Location</h6>
+                            <h6 class="contact-title">Founders</h6>
 
-                            <p>Lebanon Trail High School</p>
+                            <p>Nihal Bhatnagar, Pranay Shah, Pavan Alluri, Abhinav Bichal</p>
 
                         </div>
                     </div> <!-- contact box -->
@@ -468,11 +468,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="contact-box text-center mt-30">
                         <div class="contact-icon">
-                            <i class="lni-phone"></i>
+                            <i class="lni-map-marker"></i>
                         </div>
                         <div class="contact-content">
-                            <h6 class="contact-title">Phone</h6>
-                            <p>+1 972 533 6923</p>
+                            <h6 class="contact-title">Location</h6>
+                            <p>Plano, Texas</p>
                         </div>
                     </div> <!-- contact box -->
                 </div>
