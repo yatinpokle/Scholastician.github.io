@@ -124,7 +124,7 @@
                         <form id="contact-form" action="class.php" onsubmit="">
 
                             <h5 class="about-title">Which Class/Subject Would You Like To Tutor?</h5>
-                            <p> Unless otherwise specified, each class is suited for AP, PAP/Honors, or On-Level, so you must be ready to tutor a student at any of these levels. You will aslo have to provide proof of proficiency, such as AP scores or grades.</p>
+                            <p> Unless otherwise specified, each class is suited for AP, PAP/Honors, or On-Level, so you must be ready to tutor a student at any of these levels. You will also have to provide proof of proficiency, such as AP scores or grades. If you have already provided proof earlier, then you will not need to do it again. </p>
                             <select  class = "select-css" name="class-select" required>
                               <option value="satclass">SAT Tutoring</option>
                               <option value="actclass">ACT Tutoring</option>
