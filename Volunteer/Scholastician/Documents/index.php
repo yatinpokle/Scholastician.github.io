@@ -180,7 +180,7 @@
                     <div class="col-lg-8">
                         <div class="section-title text-center">
                             <h2 class="title">About Us</h2>
-                            <p>Nihal Bhatnagar, Pranay Shah, Abhinav Bichal, and Pavan Alluri are truly passionate in fighting the global inequality in education, which has been especially underscored by the lack of opportunities as a result of financial and social issues during COVID-19. That’s why we developed Scholastician, which provides equal access to education for all people, no matter one’s financial background. It has become ever so important to give back to the community and given our knowledge in these courses and the resources we can obtain, we felt that developing a virtual tutoring service in times of uncertainty was the best way to support the community.
+                            <p>We are truly passionate in fighting the global inequality in education, which has been especially underscored by the lack of opportunities as a result of financial and social issues during COVID-19. That’s why we developed Scholastician, which provides equal access to education for all people, no matter one’s financial background. It has become ever so important to give back to the community and given our knowledge in these courses and the resources we can obtain, we felt that developing a virtual tutoring service in times of uncertainty was the best way to support the community.
 </p>
                         </div> <!-- section title -->
                     </div>
