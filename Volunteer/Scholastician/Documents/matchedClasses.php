@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--====== Title ======-->
-  <title>Login</title>
+  <title>Thanks</title>
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/jpg">
   <!--====== Bootstrap css ======-->
@@ -69,7 +69,7 @@
               <div class="col-lg-8">
                   <div class="section-title text-center pb-25">
                       <h2 class="title">Thank You!</h2>
-                      <p>We will begin matching you to a tutor. Please keep an eye out for an email with the contact information of your tutor. If you have any issues, please contact us at support@scholastician.org.</p>
+                      <p>We will begin verifying your credentials right away! Please keep an eye out for an email with verification. If you have any issues, please contact us at support@scholastician.org.</p>
                   </div> <!-- section title -->
               </div>
           </div> <!-- row -->

@@ -60,7 +60,7 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
 // Attempt insert query execution
 $sql = "INSERT INTO userinfo (Name, Email, PN, SAT, Grade, ACT, Username, Password, student) VALUES ('$name', '$email','$phone', '$SAT', '$grade', '$ACT', '$user', '$pass','0')";
 if(mysqli_query($link, $sql)){
-    echo "<script type='text/javascript'>alert('Succesfully Registered');</script>";
+    echo "<script type='text/javascript'>alert('Succesfully Registered.');</script>";
     session_start();
     $user = mysqli_real_escape_string($link, $_REQUEST['username']);
     $getInfo = "SELECT student FROM userinfo WHERE Username = '$user'";

@@ -359,7 +359,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] != '1')
                  <div class="row">
                      <div class="col-lg-12">
                          <div class="copyright-text text-center pt-20">
-                             <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
+                             <p>Copyright © Scholastician 2020.</p>
                          </div> <!-- copyright text -->
                      </div>
                  </div> <!-- row -->

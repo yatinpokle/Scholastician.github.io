@@ -180,7 +180,7 @@
                     <div class="col-lg-8">
                         <div class="section-title text-center">
                             <h2 class="title">About Us</h2>
-                            <p>We are truly passionate in fighting the global inequality in education, which has been especially underscored by the lack of opportunities as a result of financial and social issues during COVID-19. That’s why we developed Scholastician, which provides equal access to education for all people, no matter one’s financial background. It has become ever so important to give back to the community and given our knowledge in these courses and the resources we can obtain, we felt that developing a virtual tutoring service in times of uncertainty was the best way to support the community.
+                            <p>Nihal Bhatnagar, Pranay Shah, Abhinav Bichal, and Pavan Alluri are truly passionate in fighting the global inequality in education, which has been especially underscored by the lack of opportunities as a result of financial and social issues during COVID-19. That’s why we developed Scholastician, which provides equal access to education for all people, no matter one’s financial background. It has become ever so important to give back to the community and given our knowledge in these courses and the resources we can obtain, we felt that developing a virtual tutoring service in times of uncertainty was the best way to support the community.
 </p>
                         </div> <!-- section title -->
                     </div>
@@ -189,7 +189,7 @@
                     <div class="col-lg-6">
                         <div class="about-content mt-50">
                             <h5 class="about-title">We can help in many courses!</h5>
-                            <p>We are currently offering assistance in numerous on-level, PAP, & AP courses. We will match students to certified tutors for the selected courses. </p>
+                            <p>We are currently offering assistance in numerous on-level, PAP, & AP courses. We will match students to certified tutors for the selected courses. Additionally, we offer tutoring in the SAT and ACT.</p>
                             <ul class="clearfix">
                                 <li>
                                     <div class=" d-flex align-items-center">
@@ -216,8 +216,8 @@
                                           <p>•AP US History</p>
                                           <p>•AP Government & Economics </p>
                                           <br>
-                                          <p>•English 1</p>
-                                          <p>•English 2</p>
+                                          <p>•English 1-4</p>
+                                          <p>•SAT English</p>
                                           <p>•AP Language and Composition</p>
                                           <p>•AP Literature & Composition</p>
                                         </div>
@@ -447,7 +447,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
                         <h2 class="title">Contact Us</h2>
-                        <p>If you have any questions or had issues with one of your sessions, please fill out the form below and we will get back to you as soon as possible.</p>
+                        <p>If you have any questions or had issues with one of your sessions, please email us and we will get back to you as soon as possible.</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -488,28 +488,7 @@
                     </div> <!-- contact box -->
                 </div>
             </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="contact-form pt-30">
-                        <form id="contact-form" action="submitContactUsEmail.php">
-                            <div class="single-form">
-                                <input type="text" name="name" placeholder="Name">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                                <input type="email" name="email" placeholder="Your Email">
-                            </div> <!-- single form -->
-                            <div class="single-form">
-                                <textarea name="message" placeholder="Message"></textarea>
-                            </div> <!-- single form -->
-                            <p class="form-message"></p>
-                            <div class="single-form">
-                                <button class="main-btn" type="submit">Submit</button>
-                            </div> <!-- single form -->
-                        </form>
-                    </div> <!-- contact form -->
-                </div>
-
-            </div> <!-- row -->
+           <!-- row -->
         </div> <!-- container -->
     </section>
 
@@ -543,7 +522,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
+                            <p>Copyright © Scholastician 2020.</p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

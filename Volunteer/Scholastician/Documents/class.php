@@ -9,17 +9,17 @@ if($link === false){
 session_start();
 // Escape user inputs for security
 $class = mysqli_real_escape_string($link, $_REQUEST['class-select']);
-$topics = mysqli_real_escape_string($link, $_REQUEST['topics']);
-$times = mysqli_real_escape_string($link, $_REQUEST['times']);
+
+
 echo $class;
 
 echo "hello";
 echo $_SESSION['id'];
 $id = $_SESSION['id'];
-$sql = "UPDATE userinfo SET $class = '1', topics = '$topics', times = '$times' WHERE id = $id ";
+$sql = "UPDATE userinfo SET $class = '1' WHERE id = $id";
 if(mysqli_query($link, $sql)){
 
-header("Location: matched.html");
+header("Location: matchedClasses.php");
     echo "done";
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);

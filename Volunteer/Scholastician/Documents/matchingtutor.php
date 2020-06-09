@@ -1,4 +1,13 @@
 <!doctype html>
+<?php
+session_start();
+if(!isset($_SESSION['username']) || $_SESSION['student'] == '1')
+{
+  echo "<script type='text/javascript'>alert('Not Logged In');</script>";
+  header("Location: index.php");
+  die;
+}
+ ?>
 <html lang="en">
 
 <head>
@@ -27,7 +36,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--====== Title ======-->
-    <title>Student Registration</title>
+    <title>Tutor Matching</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/jpg">
     <!--====== Bootstrap css ======-->
@@ -109,7 +118,7 @@
             <div class="row justify-content-center mt-50">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
-                        <h2 class="title">Class Selection</h2>
+                        <h2 class="title">Match with a student</h2>
                         <p>If you would like to begin tutoring in multple classes, please fill this form out again.</p>
                     </div> <!-- section title -->
                 </div>
@@ -123,45 +132,7 @@
                       } ?>
                         <form id="contact-form" action="insertMatchingTutor.php" onsubmit="">
 
-                            <h5 class="about-title">Which Class/Subject Would You Like To Tutor?</h5>
-                            <p> Unless otherwise specified, each class is suited for AP, PAP/Honors, or On-Level, so you must be ready to tutor a student at any of these levels</p>
-                            <select  class = "select-css" name="class-select" required>
-                              <option value="satclass">SAT Tutoring</option>
-                              <option value="actclass">ACT Tutoring</option>
-                              <option value="compsci">Computer Science</option>
-                              <option disabled>---Math---</option>
-                              <option value="Algebra1">Algebra 1</option>
-                              <option value="Algebra2">Algebra 2</option>
-                              <option value="Pre-Calc">Pre-Calculus</option>
-                              <option value="APCalcAB">AP Calculus AB</option>
-                              <option value="APCalcBC">AP Calculus BC</option>
-                              <option disabled>---Science---</option>
-                              <option value="bio">Biology</option>
-                              <option value="chem">Chemistry</option>
-                              <option value="Physics1">Physics 1</option>
-                              <option value="Physics2">Physics 2</option>
-                              <option value="PhysicsC">Physics C</option>
-                              <option value="apes">AP Environmental Science</option>
-                              <option disabled>---History---</option>
-                              <option value="aphug">AP Human Geography</option>
-                              <option value="whap">World History</option>
-                              <option value="apush">US History</option>
-                              <option value="apgov">Government</option>
-                              <option value="apecon">Economy</option>
-                              <option disabled>---English---</option>
-                              <option value="english1">English 1</option>
-                              <option value="english2">English 2</option>
-                              <option value="english3">English 3</option>
-                              <option value="english4">English 4</option>
-                              <option value="aplang">AP English Language</option>
-                              <option value="aplit">AP English Literature</option>
-                            </select>
 
-                          <div class="single-form">
-                            <h5 class="about-title">What topic(s) are you comfortable teaching?</h5>
-                            <p>Maximum 200 Characters</p>
-                              <textarea name="topics" maxlength="200"></textarea>
-                          </div>
                           <div class="single-form">
                             <h5 class="about-title">What times best suit you?</h5>
                             <p>We cannot guarantee that you have a student to tutor exactly these times.</p>
@@ -205,7 +176,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
-                            <p>Copyright © Scholastician 2020. Crafted by </p> <a href="uideck.com">UIDeck</a>
+                            <p>Copyright © Scholastician 2020.</p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->

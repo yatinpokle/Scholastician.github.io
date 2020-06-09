@@ -87,8 +87,8 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
                                 }
                         else
                         {
-                          echo "wrong username password combo";
-
+                          echo "<script>alert('Username or Password is incorrect'); document.location='loginpage.php'</script>";
+                          die;
                         }
 
 
@@ -102,6 +102,10 @@ $sql = "SELECT  username  FROM userinfo WHERE username = ?";
 
 
 
+                  }
+                  else{
+                    echo "<script>alert('Username or Password is incorrect'); document.location='loginpage.php'</script>";
+                    die;
                   }
 }
 }

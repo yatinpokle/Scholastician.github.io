@@ -27,7 +27,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--====== Title ======-->
-    <title>Student Registration</title>
+    <title>Classs Selection</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/jpg">
     <!--====== Bootstrap css ======-->
@@ -121,10 +121,10 @@
 
                         echo "<script type='text/javascript'>alert('username taken');</script>";
                       } ?>
-                        <form id="contact-form" action="insertMatching.php" onsubmit="">
+                        <form id="contact-form" action="class.php" onsubmit="">
 
-                            <h5 class="about-title">Which Class/Subject Would You Like Tutoring In?</h5>
-                            <p> Unless otherwise specified, each class is suited for AP, PAP/Honors, or On-Level</p>
+                            <h5 class="about-title">Which Class/Subject Would You Like To Tutor?</h5>
+                            <p> Unless otherwise specified, each class is suited for AP, PAP/Honors, or On-Level, so you must be ready to tutor a student at any of these levels. You will aslo have to provide proof of proficiency, such as AP scores or grades.</p>
                             <select  class = "select-css" name="class-select" required>
                               <option value="satclass">SAT Tutoring</option>
                               <option value="actclass">ACT Tutoring</option>
@@ -156,17 +156,11 @@
                               <option value="aplang">AP English Language</option>
                               <option value="aplit">AP English Literature</option>
                             </select>
+                            <div class="single-form">
+                              <h5 class="about-title">Upload proof of Proficiency</h5>
+                              <p>In order to ensure the quality of our tutors, you need to email proof of your certifications to support@scholastician.org. You must have or had an A in the class or a 4 or higher if you previously took the class and it is an AP course. Please use the email that you have used to register so we can confirm your identity and we will respond to verify that you have signed up for a class.</p>
 
-                          <div class="single-form">
-                            <h5 class="about-title">What topic(s) do you need help with?</h5>
-                            <p>Maximum 200 Characters</p>
-                              <textarea name="topics" maxlength="200"></textarea>
-                          </div>
-                          <div class="single-form">
-                            <h5 class="about-title">What times best suit you?</h5>
-                            <p>We cannot guarantee that you will recieve a tutor available at exactly these times.</p>
-                              <textarea name="times" maxlength="200"></textarea>
-                          </div>
+                            </div>
 
                             <br>
 
