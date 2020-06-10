@@ -353,7 +353,7 @@
                             <i class="lni-lock"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="loginPage.php">Login</a></h4>
+                            <h4 class="service-title"><a href="loginpage.php">Login</a></h4>
                             <p>Already have an account? Login here.</p>
                         </div>
                     </div> <!-- single service -->
@@ -407,7 +407,7 @@
                             <i class="lni-lock"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="loginPage.php">Login</a></h4>
+                            <h4 class="service-title"><a href="loginpage.php">Login</a></h4>
                             <p>Already have an account? Login here.</p>
                         </div>
                     </div> <!-- single service -->
@@ -485,7 +485,7 @@
                         <div class="contact-content">
                             <h6 class="contact-title">Email</h6>
                             <p>support@scholastician.org</p>
-                          
+
                             <br
                         </div>
                     </div> <!-- contact box -->
