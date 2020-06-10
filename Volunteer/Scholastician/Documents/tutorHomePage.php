@@ -55,6 +55,8 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] == '1')
              padding: 10%;
              margin-right: 10px;
              max-width: 100em;
+             position: relative;
+             bottom: 15px;
 
 
          }
@@ -207,7 +209,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] == '1')
                      </div> <!-- row -->
                      <div class="row justify-content-center text-center">
 
-                         <h5 id = "hi" class="col-md-6 col-sm-8">In order to start tutoring, you need to make sure that you have succesfully chosen the classes that you want tu tutor. After selecting and after we verify, you will recieve an email confirming the classes that you can teach </h5>
+                         <h5 id = "hi" class="col-md-6 col-sm-8">Make sure you are choosing the right classes! Please confirm your classes and elgibility through the icon to the right. </h5>
                          <div class="col-lg-4 col-md-6 col-sm-8">
                          <div class="single-service text-center mt-30">
                              <div class="service-icon">
@@ -223,7 +225,7 @@ if(!isset($_SESSION['username']) || $_SESSION['student'] == '1')
                      </div> <!-- row -->
                  <div class="row justify-content-center text-center">
 
-                     <h5 id = "hi" class="col-md-6 col-sm-8 ">Now for the most important step. If you are ready to start looking for student, please click on the icon on the right. Please ensure that you have been verified to teach a course before you submit. You will be prompted to enter some information to begin the matching process.</h5>
+                     <h5 id = "hi" class="col-md-6 col-sm-8 ">After select and verify all your classes, it's time to find a student. You will be prompted to enter some information to begin the matching process.</h5>
                      <div class="col-lg-4 col-md-6 col-sm-8">
                          <div class="single-service text-center mt-30">
                              <div class="service-icon">
