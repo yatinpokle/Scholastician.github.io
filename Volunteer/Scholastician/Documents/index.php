@@ -460,7 +460,7 @@
                         <div class="contact-content">
                             <h6 class="contact-title">Founders</h6>
 
-                            <p>Nihal Bhatnagar, Pranay Shah, Pavan Alluri, Abhinav Bichal</p>
+                            <p>Nihal Bhatnagar, Pranay Shah, Pavan Alluri, Abhinav Bichal, & Yatin Pokle</p>
 
                         </div>
                     </div> <!-- contact box -->
