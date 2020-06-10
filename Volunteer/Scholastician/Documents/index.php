@@ -473,6 +473,7 @@
                         <div class="contact-content">
                             <h6 class="contact-title">Location</h6>
                             <p>Plano, Texas</p>
+                            <br>
                         </div>
                     </div> <!-- contact box -->
                 </div>
@@ -484,6 +485,8 @@
                         <div class="contact-content">
                             <h6 class="contact-title">Email</h6>
                             <p>support@scholastician.org</p>
+                          
+                            <br
                         </div>
                     </div> <!-- contact box -->
                 </div>
