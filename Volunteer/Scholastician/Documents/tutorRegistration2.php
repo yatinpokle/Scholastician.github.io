@@ -110,7 +110,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
                         <h2 class="title">Class Selection</h2>
-                        <p>If you would like to begin tutoring in multple classes, please fill this form out again.</p>
+                        <p>If you would like to begin tutoring in multiple classes, please fill this form out again.</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
